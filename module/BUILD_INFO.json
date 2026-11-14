@@ -1,0 +1,30 @@
+{
+  "project": "Android Auto Support HyperOS",
+  "maintainer": "2.236",
+  "originalAuthor": "相见即是缘",
+  "androidAutoVersion": "18.1.664404-release",
+  "androidAutoVersionCode": 181664404,
+  "moduleVersionCode": 2236,
+  "installationMode": "KernelSU module installs the full split APK through Package Manager into /data/app and mounts the original support files.",
+  "targetConstraints": [
+    "ARM64 device",
+    "Android 15 / API 35 or newer"
+  ],
+  "deviceLock": null,
+  "mountingProviderLock": null,
+  "deviceTested": false,
+  "carTested": false,
+  "payloadSignerCertificateSHA256": "1ca8dcc0bed3cbd872d2cb791200c0292ca9975768a82d676b8b424fb65b5295",
+  "sourceReferences": [
+    "https://www.apkmirror.com/apk/google-inc/android-auto/android-auto-18-1-6644-release/android-auto-18-1-664404-release-2-android-apk-download/",
+    "https://kernelsu.org/guide/module.html",
+    "https://kernelsu.org/guide/metamodule.html",
+    "https://source.android.com/docs/core/permissions/perms-allowlist"
+  ],
+  "validation": [
+    "APK split payload bytes preserved from the previously verified 18.1 candidate",
+    "APK signer certificate and 16 KB zip alignment previously verified",
+    "ZIP CRC and module SHA256 manifest checked on 2026-11-14",
+    "No phone or car installation performed by this packaging task"
+  ]
+}

@@ -1,0 +1,6 @@
+id=AndroidAuto
+name=Android Auto Support HyperOS
+version=2.236-18.1.664404-release
+versionCode=2236
+author=2.236
+description=Android Auto 18.1 full APK with original HyperOS support files; ARM64 and Android 15+.

@@ -1,0 +1,10 @@
+{
+  "name": "Android Auto Support HyperOS",
+  "directory": "Android_Auto_Support_HyperOS",
+  "maintainer": "2.236",
+  "visibilityPlan": "private staging, then public after review",
+  "androidAuto": "18.1.664404-release",
+  "created": "2026-11-14",
+  "referenceSession": "01a1d00c-ddb7-74d1-be8b-ee5325cb36c7",
+  "referenceLayout": "English README, Chinese README, changelog, GitHub Actions, release ZIP and SHA256SUMS"
+}
