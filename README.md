@@ -24,12 +24,10 @@ The module does not automatically downgrade a newer Android Auto installation or
 
 The support stub directory is named `AndroidAutoSupportStub_Restore` to avoid reusing the stale `AndroidAutoStub` parsed-package cache observed during diagnosis. The full app is installed through Package Manager so app processes can read it from `/data/app`.
 
-## Support boundary
+## Environment
 
-- Android: 15 / API 35 or newer.
-- ABI: ARM64 (`arm64-v8a`).
-- Android Auto: `18.1.664404-release`, version code `181664404`.
-- Device and car validation: not claimed by this release. Static package validation is recorded in `module/BUILD_INFO.json`.
+- Device: Xiaomi 17 Pro Max (`2509FPN0BC`), HyperOS `OS4.0.6.0.XPBCNXM`, Android 17.
+- Root and LSPosed: KernelSU; LSPosed modern API, installed framework API 102.
 
 ## Build and release
 

@@ -24,12 +24,10 @@
 
 支持占位目录改为 `AndroidAutoSupportStub_Restore`，用于避开排查时发现的旧 `AndroidAutoStub` 解析缓存。完整应用通过 Package Manager 安装到 `/data/app`，应用进程可以直接读取。
 
-## 适配范围
+## 环境信息
 
-- Android：15 / API 35 及以上。
-- ABI：ARM64（`arm64-v8a`）。
-- Android Auto：`18.1.664404-release`，版本号 `181664404`。
-- 本次发布不宣称已经完成手机和车机实测；静态校验结果记录在 `module/BUILD_INFO.json`。
+- 设备：Xiaomi 17 Pro Max（`2509FPN0BC`），HyperOS `OS4.0.6.0.XPBCNXM`，Android 17。
+- Root 和 LSPosed：KernelSU；LSPosed Modern API，已安装框架 API 为 102。
 
 ## 构建和发布
 
